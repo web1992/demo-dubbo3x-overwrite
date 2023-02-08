@@ -1,8 +1,6 @@
-# 工程简介
+# demo-dubbo3x-overwrite
 
-dubbo 3.x `dubbo.reference.*`,`dubbo.service.*` 属性服覆盖导致配置不生效问题复现。
-
-- demo-dubbo3x-overwrite
+dubbo 3.x 中 `dubbo.reference.*`,`dubbo.service.*` 等属性服覆盖导致配置不生效问题复现。
 
 1. 启动 com.gbdmf.demo.dubbo3.EmbeddedZooKeeper
 2. 启动 com.gbdmf.demo.dubbo3.xml.provider.DubboXmlProviderApplication
