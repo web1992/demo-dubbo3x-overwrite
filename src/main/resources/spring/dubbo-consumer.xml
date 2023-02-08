@@ -26,7 +26,6 @@
     <!-- connections is the tcp connection between consumer and provider -->
     <dubbo:consumer connections="3" threads="10" timeout="3000" retries="0" check="false"/>
 
-<!--        <dubbo:registry address="zookeeper://online.zookeeper.zhaogangrentest.com:2181" />-->
     <dubbo:registry address="zookeeper://127.0.0.1:2181"/>
 
     <!-- <dubbo:consumer
@@ -46,6 +45,6 @@
     local regular interface -->
     <!-- retries 如果不设置，默认是3 -->
     <dubbo:reference id="greetingsService" check="false" interface="com.gbdmf.demo.dubbo3.api.GreetingsService"
-                     retries="0"/>
+                     retries="0" timeout="6000"/>
     <dubbo:metadata-report timeout="50000"/>
 </beans>

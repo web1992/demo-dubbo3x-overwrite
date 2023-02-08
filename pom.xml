@@ -11,7 +11,7 @@
     <groupId>com.gbdmf</groupId>
     <artifactId>demo-dubbo3</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>demo-dubbo3</name>
+    <name>demo-dubbo3x-overwrite</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>

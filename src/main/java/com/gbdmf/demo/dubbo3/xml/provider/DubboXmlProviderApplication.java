@@ -29,7 +29,7 @@ import org.springframework.context.annotation.ImportResource;
 public class DubboXmlProviderApplication {
 
     public static void main(String[] args) {
-        System.setProperty("dubbo.service.version", "TEST");
+        //System.setProperty("dubbo.service.timeout", "3000");
         SpringApplication.run(DubboXmlProviderApplication.class, args);
     }
 }

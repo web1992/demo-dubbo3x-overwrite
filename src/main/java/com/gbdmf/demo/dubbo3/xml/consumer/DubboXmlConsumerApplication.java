@@ -36,7 +36,7 @@ public class DubboXmlConsumerApplication implements ApplicationContextAware, Com
     private ApplicationContext applicationContext;
 
     public static void main(String[] args) {
-        System.setProperty("dubbo.reference.version", "TEST");
+        System.setProperty("dubbo.reference.timeout", "3000");
         SpringApplication.run(DubboXmlConsumerApplication.class, args);
     }
 
