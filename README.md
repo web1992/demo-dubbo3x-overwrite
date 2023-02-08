@@ -6,6 +6,8 @@ dubbo 3.x 中 `dubbo.reference.*`,`dubbo.service.*` 等属性服覆盖导致配�
 2. 启动 com.gbdmf.demo.dubbo3.xml.provider.DubboXmlProviderApplication
 3. 启动 com.gbdmf.demo.dubbo3.xml.consumer.DubboXmlConsumerApplication
 
+> 等待consumer服务超时
+
 启动项目发下consumer配置的超时时间没有生效！
 
 在 [dubbo-consumer.xml](src%2Fmain%2Fresources%2Fspring%2Fdubbo-consumer.xml) 中配置了接口`com.gbdmf.demo.dubbo3.api.GreetingsService`
